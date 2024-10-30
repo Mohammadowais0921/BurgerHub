@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.out1 {
+    border: solid 1px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#in1,
+#in2 {
+    border: solid 1px;
+    height: 100px;
+}
+
+#in1 {
+    width: 100px;
+    margin-left: 100px;
+}
+
+#in2 {
+    width: 550px;
+}
+
+#img1 {
+    height: 140px;
+}
+
+#img1:hover {
+    transform: translate(1800px);
+    transition-duration: 5s;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    border: solid 1px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+ul li a {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+ul li a {
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 1s; */
+    animation-name: owais;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+@keyframes owais {
+    0% {
+        color: rgb(255, 177, 190);
+    }
+
+    25% {
+        color: rgb(71, 246, 18);
+    }
+
+    50% {
+        color: rgb(205, 194, 94);
+    }
+
+    75% {
+        color: rgb(10, 126, 126);
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+ul li a:hover {
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.out2 {
+    border: solid 1px;
+    height: 700px;
+    background-image: url('burger1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+}
+
+#welcome {
+    color: cyan;
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 2px 7px rgb(255, 0, 43);
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 1s; */
+    animation-name: owais;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+
+#taste {
+    font-size: 28px;
+    margin-left: 90px;
+    margin-top: 70px;
+    color: white;
+    text-shadow: 3px 3px 10px rgb(188, 17, 255);
+}
+
+#menu {
+    margin-left: 90px;
+    margin-top: 20px;
+    color: red;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+}
+
+#menu:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+.out3 {
+    border: solid 1px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+#in3,
+#in4 {
+    border: solid 1px;
+    height: 450px;
+
+}
+
+#in3 {
+    width: 400px;
+}
+
+#in4 {
+    width: 600px;
+}
+
+#about {
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    margin-top: 20px;
+    text-shadow: 3px 3px 10px rgb(188, 17, 255);
+    color: white;
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 1s; */
+    animation-name: owais;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+
+#text1 {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: wheat;
+
+}
+
+.out4 {
+    border: solid 1px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+#in5,
+#in6,
+#in7 {
+    /* border: solid 1px; */
+    height: 600px;
+    width: 350px;
+}
+
+#img2 {
+    margin-top: 60px;
+}
+
+#img3 {
+    margin-top: 20px;
+}
+
+#img4 {
+    margin-top: 30px;
+}
+
+#menu1 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(83, 0, 116);
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 1s; */
+    animation-name: owais;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+
+}
+
+#menu2 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(0, 144, 240);
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 1s; */
+    animation-name: owais;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+#menu3 {
+    color: white;
+    text-shadow: 3px 3px 10px rgb(17, 227, 255);
+    text-align: center;
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 1s; */
+    animation-name: owais;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+#tan {
+    color: white;
+    font-size: 20px;
+}
